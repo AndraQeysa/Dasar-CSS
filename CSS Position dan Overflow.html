@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style media="screen">
+        .container{
+            width: 50%;
+            height: 200px;
+            overflow: auto;
+            margin-left: 0 auto;
+        }
+        .static{ position: static; border: 2px solid mediumspringgreen; }
+        .relative{
+            position: relative;
+            border: 2px solid orangered;
+            left: 20px; /* jarak dari posisi paling kiri sebesar 20px */
+            bottom: 0; /* jarak dari posisi paling bawah sebesar 0px */
+        }
+        .absolute{ position: absolute; border: 2px solid dodgerblue; left: 20px; bottom: 40px; }
+        .fixed{ position: fixed; border: 2px solid black; bottom: 0; right: 0;}
+        .sticky{
+            position: sticky;
+            border: 2px solid yellow;
+            top: 0;
+            left: 20px;
+            background: brown;
+            color: white;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p class="sticky">
+                Ini adalah contoh dari posisi sticky
+            </p>
+                
+            <p class="static">
+                <b>Ini adalah contoh dari position static</b><br>
+                Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by 
+                technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. Web browsers receive HTML documents from a web 
+                server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and 
+                originally included cues for the appearance of the document.
+            </p>
+
+            <p class="relative">
+                <b>Ini adalah contoh dari position relative</b><br>
+                Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by 
+                technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. Web browsers receive HTML documents from a web 
+                server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and 
+                originally included cues for the appearance of the document.
+            </p>
+
+            <p class="absolute">
+                <b>Ini adalah contoh dari position absolute</b><br>
+                Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by 
+                technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. Web browsers receive HTML documents from a web 
+                server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and 
+                originally included cues for the appearance of the document.
+            </p>
+
+            <p class="fixed">
+                Ini merupakan contoh dari position fixed
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style media="screen">
+            .menu{ margin: 0; width: 100%; position: sticky; }
+            nav{ width: 20%; height: 400px; background: tan;}
+            ul.horizontal{
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+                background-color: deepskyblue;
+            }
+            ul.horizontal li{ float: left;}
+            ul.horizontal li a{
+                display: block;
+                text-decoration: none;
+                color: white;
+                padding: 15px;
+                text-align: center;
+            }
+            ul.horizontal li a:hover{ background-color: dodgerblue ;}
+            ul.vertical{
+                list-style-type: none;
+                padding:0;
+                margin:0;
+                overflow:hidden;
+                background-color: tan;
+            }
+            ul.vertical li a{
+                display:block;
+                text-decoration: none;
+                color: black;
+                padding: 15px;
+                text-align: left;
+            }
+            ul.vertical li a: :hover{
+                background-color: #777777;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+            <ul class="horizontal">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+
+        <nav>
+            <ul class="vertical">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>  
+            </ul>
+        </nav>
+    </body>
+</html>
