@@ -14,7 +14,7 @@
 ![alt text](https://github.com/AndraQeysa/Dasar-CSS/blob/master/Navbar.PNG)
 
 # Position and Overflow
-![alt text](https://github.com/AndraQeysa/Dasar-CSS/blob/master/CSS%20Position%20dan%20Overflow.html)
+![alt text](https://github.com/AndraQeysa/Dasar-CSS/blob/master/Position%20dan%20Overflow.PNG)
 
 # Text
 ![alt text](https://github.com/AndraQeysa/Dasar-CSS/blob/master/Text.PNG)
